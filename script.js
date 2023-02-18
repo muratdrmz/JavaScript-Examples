@@ -5,7 +5,7 @@ function randomFruit(fruits) {
   const randN = Math.floor(Math.random() * fruits.length);
   return fruits[randN];
 }
-console.log(randomFruit(fruits));
+// console.log(randomFruit(fruits));
 
 //2
 
@@ -23,13 +23,11 @@ function weatherScore(weather) {
   }
   return score;
 }
-console.log(weatherScore());
+// console.log(weatherScore());
 
 //3
 
 // const weather1 = prompt("how is weathers today");
-
-
 
 function weatherScore(weather,weather1) {
   let score;
@@ -43,5 +41,22 @@ function weatherScore(weather,weather1) {
   }
   return score;
 }
-console.log(weatherScore('rainy','overcast'));
+// console.log(weatherScore('rainy','overcast'));
 
+// 4  While loop
+
+let num=0
+
+let num2=10
+
+while (num<num2) {
+  // console.log('looping',num)
+  num++
+}
+
+let finish=true
+
+while (finish==true) {
+  console.log('looping')
+  finish=false
+}
